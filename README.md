@@ -15,3 +15,17 @@ Step 4: In case everything goes smoothly, you can test the application in Postma
 P.S. I think that an endpoint worded as /countrIES/{COUNTRYCODE) would be more appropriate, but I decided to stick to instructions
 
 HOPE YOU ENJOYED MY APP!
+
+
+CovidStatsH2JPA
+
+1. First we will have to build the project using Maven build tool
+
+2. In order to run the project and generate the database we need the two files in resources: 1. schema.sql and 2.data.sql - we can check in the web console 
+http://localhost:8080/h2/login.do?jsessionid=ed8f6609fdb3b73d62ba0faf839ff1b0 if the table is created and filled with data
+
+3. The project is implemented using CRUD Generic Repository
+
+4. We can test in Postman as usual
+
+Thank you very much!
